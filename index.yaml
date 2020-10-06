@@ -3,6 +3,16 @@ entries:
   dnsmasq:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2020-10-06T19:43:07.045403155Z"
+    description: dnsmasq DHCP server on Kubernetes (via kubelan)
+    digest: 35ce35ed6f37ec74351975bc4ac5fa7262e0dfe9df3075c21a95cfa031c1836a
+    name: dnsmasq
+    type: application
+    urls:
+    - https://github.com/devplayer0/charts/releases/download/dnsmasq-0.1.2/dnsmasq-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2020-10-06T18:58:58.889040191Z"
     description: dnsmasq DHCP server on Kubernetes (via kubelan)
     digest: a79c047dfd3a09697f8010a9ea864fc9e8c3b2a147be64077cefc2f25f183e82
