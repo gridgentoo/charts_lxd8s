@@ -31,4 +31,15 @@ entries:
     urls:
     - https://github.com/devplayer0/charts/releases/download/dnsmasq-0.1.0/dnsmasq-0.1.0.tgz
     version: 0.1.0
+  octolxd:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-02-25T16:45:52.466914125Z"
+    description: GitHub Releases-based proxy for the LXD `simplestreams` protocol
+    digest: 35a8bd3b5fb83e18819f9aec69431c427426c64224f2fbb330df07bdcb4c9a87
+    name: octolxd
+    type: application
+    urls:
+    - https://github.com/devplayer0/charts/releases/download/octolxd-0.1.0/octolxd-0.1.0.tgz
+    version: 0.1.0
 generated: "2020-09-23T17:41:17.829750856Z"
