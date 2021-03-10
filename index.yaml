@@ -44,14 +44,14 @@ entries:
     version: 0.1.0
   whoami:
   - apiVersion: v2
-    appVersion: v1.6.0
-    created: "2021-03-10T16:37:15.776061377Z"
+    appVersion: v1.6.1
+    created: "2021-03-10T16:37:51.955012153Z"
     description: Tiny Go webserver that prints os information and HTTP request to
       output
-    digest: 5ff0634aaed6756e54fb39062ccbe4f3d48958eef5c741f44d6b833319af3ad9
+    digest: dd0fa463d2b3daec44fea13f4107f34232b67facb1c6bf7a1c460f902fe6cbae
     name: whoami
     type: application
     urls:
-    - https://github.com/devplayer0/charts/releases/download/whoami-0.1.0/whoami-0.1.0.tgz
-    version: 0.1.0
+    - https://github.com/devplayer0/charts/releases/download/whoami-0.1.1/whoami-0.1.1.tgz
+    version: 0.1.1
 generated: "2020-09-23T17:41:17.829750856Z"
