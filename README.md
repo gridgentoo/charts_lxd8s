@@ -1,5 +1,7 @@
 # Helm charts
 
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/devplayer0)](https://artifacthub.io/packages/search?repo=devplayer0)
+
 This repo collects all my projects' Helm charts to one place. Some are pushed in from other repositories
 automatically.
 
