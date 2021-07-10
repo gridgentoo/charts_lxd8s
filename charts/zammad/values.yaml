@@ -127,6 +127,7 @@ autoWizard:
 podAnnotations: {}
   # my-annotation: "value"
 
+volumePermissions: false
 persistence:
   enabled: true
   ## A manually managed Persistent Volume and Claim
