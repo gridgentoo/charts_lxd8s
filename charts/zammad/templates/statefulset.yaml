@@ -23,7 +23,7 @@ spec:
       imagePullSecrets: {{ toYaml .Values.image.imagePullSecrets | nindent 6 }}
       {{- end }}
       initContainers:
-      {{- if .Values.volumePermissions -}}
+      {{- if .Values.volumePermissions }}
       - name: data-chmod
         image: alpine:3.14
         command:
@@ -37,7 +37,7 @@ spec:
         volumeMounts:
         - name: {{ template "zammad.fullname" . }}
           mountPath: /opt/zammad
-      {{- end -}}
+      {{- end }}
       - name: zammad-init
         image: {{ .Values.image.repository }}:{{if eq .Values.image.repository "zammad/zammad-docker-compose"}}zammad-{{ end }}{{ .Values.image.tag }}
         imagePullPolicy: {{ .Values.image.pullPolicy }}
