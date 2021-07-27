@@ -124,6 +124,16 @@ entries:
     version: 0.3.0
   octolxd:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2021-07-27T20:19:07.33029173Z"
+    description: GitHub Releases-based proxy for the LXD `simplestreams` protocol
+    digest: 03c3c1641382f73eab017b972bf34f78942fb625d0bed62708477fc2b3b22a9c
+    name: octolxd
+    type: application
+    urls:
+    - https://github.com/devplayer0/charts/releases/download/octolxd-0.1.1/octolxd-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2021-02-25T16:45:52.466914125Z"
     description: GitHub Releases-based proxy for the LXD `simplestreams` protocol
