@@ -1,9 +1,14 @@
-Deploy an LXD cluster on Kubernetes       
-https://artifacthub.io/packages/helm/devplayer0/lxd8s      
+Deploy an LXD cluster on Kubernetes      
 
+https://artifacthub.io/packages/helm/devplayer0/lxd8s  
+
+```bash
 helm repo add devplayer0 https://devplayer0.github.io/charts/   
+```
 
+```bash
 helm install my-lxd8s devplayer0/lxd8s --version 0.5.1    
+```
 
 # Helm charts
 
